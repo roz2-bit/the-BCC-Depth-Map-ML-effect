@@ -1,0 +1,12 @@
+schema_version: "1.0"
+assets:
+  - id: SRC-001
+    kind: footage
+    description: "Replace with licensed source footage"
+    license_status: "to be confirmed"
+    repository_copy: false
+  - id: PLUG-001
+    kind: plugin
+    description: "BCC+ Depth Map ML installed by the user"
+    license_status: "user-provided license"
+    repository_copy: false

@@ -1,0 +1,19 @@
+name: Workflow improvement
+description: Suggest a documentation, template, or validation improvement.
+title: "[Enhancement] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Describe the problem and the proposed improvement.
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Licensing and compatibility considerations
+      description: Explain how the idea remains vendor-neutral and redistributable.
+    validations:
+      required: true

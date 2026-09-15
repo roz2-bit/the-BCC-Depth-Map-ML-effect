@@ -1,0 +1,29 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local project data and generated media
+metadata.json
+/renders/
+/cache/
+/proxies/
+*.aep
+*.aepx
+*.capcut
+*.mov
+*.mp4
+*.wav
+*.zip
+
+# Editor and tooling
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,16 @@
+# Illustrative documentation only; not an Adobe, Boris FX, or CapCut preset.
+schema_version: "1.0"
+review_master:
+  container: "MOV"
+  codec: "Choose a mezzanine codec supported by your team"
+  frame_rate: 24
+  resolution: "3840x2160"
+  audio:
+    sample_rate_hz: 48000
+    channels: 2
+final_vertical:
+  container: "MP4"
+  codec: "H.264 or platform-approved equivalent"
+  frame_rate: 24
+  resolution: "1080x1920"
+  bitrate: "Confirm current platform guidance"

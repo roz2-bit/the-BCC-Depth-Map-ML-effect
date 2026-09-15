@@ -1,0 +1,26 @@
+name: Workflow or documentation bug
+description: Report an incorrect step, broken link, or validator problem.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What went wrong?
+      description: Include the exact step and expected versus actual result.
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Software versions
+      description: Include OS, After Effects, BCC+, CapCut, and Python versions as applicable.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction details
+      description: Share a minimal, non-proprietary reproduction. Do not attach licensed media or binaries.
+    validations:
+      required: true

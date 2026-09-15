@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "project": {
+    "id": "DC01",
+    "name": "Example depth treatment",
+    "owner": "Team or creator",
+    "status": "draft"
+  },
+  "shot": {
+    "scene": "SC010",
+    "number": "SHOT020",
+    "frame_rate": 24,
+    "resolution": "3840x2160",
+    "aspect_ratio": "16:9",
+    "duration_frames": 240
+  },
+  "depth_treatment": {
+    "application": "Adobe After Effects",
+    "effect": "BCC+ Depth Map ML",
+    "plugin_version": "record licensed version here",
+    "settings_reference": "Describe settings in private shot notes; do not treat this as an import preset.",
+    "manual_masks": false
+  },
+  "handoff": {
+    "master_name": "DC01_SC010_SHOT020_master_v001",
+    "color_intent": "SDR example; confirm for the production",
+    "audio_sample_rate_hz": 48000,
+    "reviewer": "Unassigned"
+  }
+}
